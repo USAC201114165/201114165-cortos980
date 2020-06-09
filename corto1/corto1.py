@@ -4,8 +4,9 @@ def secuencia():
     for i in range(carnet):
         if (i % 2==0):
             dato = i
-        else 
+        else: 
             (i % 2!==0):
-            dato = (i / 3) + 1
+            dato = (i * 3) + 1
 imprimir = lista.append(dato)
 print ('la lista queda', str(imprimir))
+archivo = open('texto', 'a')
