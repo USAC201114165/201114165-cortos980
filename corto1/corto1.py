@@ -9,4 +9,4 @@ def secuencia():
             dato = (i * 3) + 1
 imprimir = lista.append(dato)
 print ('la lista queda', str(imprimir))
-file = open('texto.txt', 'a')
+archivo = open('texto.txt', 'a')
